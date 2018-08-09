@@ -5,6 +5,6 @@
 
 * Esther Guerra
 * Joyce Gomes
-* Bruno Sousa 31597467
+* Bruno Sousa
 * Gustavo Milena
 
