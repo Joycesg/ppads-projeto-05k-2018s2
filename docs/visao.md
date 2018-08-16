@@ -1,12 +1,12 @@
 # Documento de visão
 
-## Nome do projeto: ___________________________________________
+## Nome do projeto: "Mercado Livre" de serviços 
 
 ## Principais funcionalidades (o que pessoas/empresas vão conseguir com este software?):
 
-* ______________________________________________________
-* ______________________________________________________
-* ______________________________________________________
+* O cliente poderá contratar prestadores de serviços em geral, como eletricista, marceneiro, maridos de aluguel, etc.
+* O prestador de serviço poderá divulgar seus serviços na plataforma.
+* Será possível fazer um orçamento de quanto custará a execução do serviço.
 
 ## Como as pessoas/empresas vão usar este software?
 
