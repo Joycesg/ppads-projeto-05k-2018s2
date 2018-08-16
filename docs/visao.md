@@ -1,6 +1,6 @@
 # Documento de visão
 
-## Nome do projeto: "Mercado Livre" de serviços 
+## Nome do projeto: Serviço Pronto 
 
 ## Principais funcionalidades (o que pessoas/empresas vão conseguir com este software?):
 
