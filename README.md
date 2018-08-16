@@ -7,4 +7,5 @@
 * Joyce Gomes
 * Bruno Sousa
 * Gustavo Milena
+* João Braga
 
