@@ -2,7 +2,8 @@
 
 ## CDU001 - Solicitar orçamento
 Pré requisito: Não se aplica. 
-Saída: Orçamento feito e e
+
+Saída: Orçamento feito.
 ### Fluxo principal
 1. Usuário acessa o site do projeto.
 2. Usuário informa categoria do serviço desejado.
@@ -19,6 +20,7 @@ Saída: Orçamento feito e e
 ## CDU002 - Publicar serviço
 Pré requisito:  * Prestador deve estar cadastrado no site.
                 * Prestador deve ter realizado o login
+                
 Saída: Serviço criado e publicado no site.
 ### Fluxo principal
 1. Prestador de serviço seleciona opção de "Publicar serviço"
