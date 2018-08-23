@@ -52,3 +52,4 @@ Contrato de prestação de serviços.
 8. Sistema salva a aprovação. 
 9. Sistema confirma a aprovação. 
 10. Sistema envia uma notificação ao prestador de serviço.
+11. Encerra o caso de uso.
