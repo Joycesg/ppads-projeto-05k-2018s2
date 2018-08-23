@@ -16,10 +16,14 @@ Saída: Orçamento feito.
 9. Sistema valida as informações.
 10. Sistema salva informações no banco de dados.
 11. Sistema envia uma notificação ao prestador de serviço.
+12. Encerra o caso de uso. 
 
 ## CDU002 - Publicar serviço
-Pré requisito:  * Prestador deve estar cadastrado no site.
-                * Prestador deve ter realizado o login
+Pré requisitos:  
+
+* Prestador deve estar cadastrado no site.
+
+* Prestador deve ter realizado o login.
                 
 Saída: Serviço criado e publicado no site.
 ### Fluxo principal
@@ -28,7 +32,23 @@ Saída: Serviço criado e publicado no site.
 3. Usuário envia dados do serviço.
 4. Sistema valida as informações.
 5. Sistema salva informações no banco de dados.
+6. Encerra o caso de uso.
 
-## CDU003 
+## CDU003 - Contratar serviço
+Pré requisitos: 
+* Usuário deve estar cadastrado no site.
+
+Saída:
+Contrato de prestação de serviços.
 
 ### Fluxo principal
+1. Começa a partir do encerramento do caso de uso "Solicitar Orçamento".
+2. Prestador de serviço desenvolve a proposta de serviço, como data da conclusão, preço, custos adicionais com material e detalhes da execução do serviço.
+3. Prestador envia o orçamento. 
+4. Sistema valida o orçamento.
+5. Sistema salva no banco de dados. 
+6. Sistema envia uma notificação ao usuário.
+7. Usuário aprova o orçamento.
+8. Sistema salva a aprovação. 
+9. Sistema confirma a aprovação. 
+10. Sistema envia uma notificação ao prestador de serviço.
