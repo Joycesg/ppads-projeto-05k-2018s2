@@ -38,6 +38,8 @@ Saída: Serviço criado e publicado no site.
 Pré requisitos: 
 * Usuário deve estar cadastrado no site.
 
+* Prestador de serviço deve estar cadastrado no site.
+
 Saída:
 Contrato de prestação de serviços.
 
