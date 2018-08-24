@@ -34,24 +34,36 @@ Saída: Serviço criado e publicado no site.
 5. Sistema salva informações no banco de dados.
 6. Encerra o caso de uso.
 
-## CDU003 - Contratar serviço
+## CDU003 - Enviar orçamento
 Pré requisitos: 
-* Usuário deve estar cadastrado no site.
+* Usuário deve ter solicitado o orçamento.
 
 * Prestador de serviço deve estar cadastrado no site.
 
-Saída:
-Contrato de prestação de serviços.
+Saída: Orçamento enviado com sucesso.
 
 ### Fluxo principal
-1. Começa a partir do encerramento do caso de uso "Solicitar Orçamento".
+1. Prestador de serviço acessa a área de orçamentos pendentes.
 2. Prestador de serviço desenvolve a proposta de serviço, como data da conclusão, preço, custos adicionais com material e detalhes da execução do serviço.
-3. Prestador envia o orçamento. 
+3. Prestador de serviço envia o orçamento. 
 4. Sistema valida o orçamento.
 5. Sistema salva no banco de dados. 
 6. Sistema envia uma notificação ao usuário.
-7. Usuário aprova o orçamento.
-8. Sistema salva a aprovação. 
-9. Sistema confirma a aprovação. 
-10. Sistema envia uma notificação ao prestador de serviço.
-11. Encerra o caso de uso.
+7. Encerra o caso de uso. 
+
+## CDU004 - Aprovar orçamento
+Pré requisitos: 
+* Usuário deve estar cadastrado no site.
+
+* Prestador de serviço deve ter enviado o orçamento.
+
+Saída:
+Aprovado orçamento de prestação de serviços.
+
+### Fluxo principal
+1. Usuário acessa a área de orçamentos respondidos.
+2. Usuário aprova o orçamento.
+3. Sistema confirma a aprovação. 
+4. Sistema salva a aprovação. 
+5. Sistema envia uma notificação ao prestador de serviço.
+6. Encerra o caso de uso.
