@@ -40,6 +40,8 @@ Pré requisitos:
 
 * Prestador de serviço deve estar cadastrado no site.
 
+* Prestador de serviço deve ter publicado o serviço.
+
 Saída: Orçamento enviado com sucesso.
 
 ### Fluxo principal
