@@ -34,6 +34,14 @@ Saída: Serviço criado e publicado no site.
 5. Sistema salva informações no banco de dados.
 6. Encerra o caso de uso.
 
+### Fluxo Alternativo - Dados incorretos
+
+1.	Continuar a partir do tópico 4 do Fluxo Principal.
+2.	O sistema informa ao usuário: “Dados Incorretos, favor verificar”.
+3.	Sistema direciona o usuário ao tópico 2 do Fluxo Principal. 
+4.	Fluxo alternativo encerrado.
+
+
 ## CDU003 - Enviar orçamento
 Pré requisitos: 
 * Usuário deve ter solicitado o orçamento.
