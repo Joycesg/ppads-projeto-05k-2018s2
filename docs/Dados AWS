@@ -1,5 +1,6 @@
 Segue informações para acesso ao banco de dados via MySQL:
  
  Hostname: projeto.c1d4bqrovkep.sa-east-1.rds.amazonaws.com
+ Port: 3306
  Senha: Acesso123
  DB: projeto
