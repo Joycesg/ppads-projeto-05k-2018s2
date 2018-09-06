@@ -5,3 +5,9 @@ Segue informações para acesso ao banco de dados via MySQL:
  User: projeto
  Senha: Acesso123
  DB: projeto
+
+
+
+
+
+arn:aws:rds:sa-east-1:491990153566:db:projeto
