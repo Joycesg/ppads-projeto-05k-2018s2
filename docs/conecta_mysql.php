@@ -1,7 +1,7 @@
 <?php
 
 //AWS
-$servername = "projeto.c1d4bqrovkep.sa-east-1.rds.amazonaws.com"; \\ ip ou link do banco de dados na Amazon
+$servername = "arn:aws:rds:sa-east-1:491990153566:db:projeto"; \\ ip ou link do banco de dados na Amazon
 $username = "admin"; \\ usuário do banco de dados
 $password = "Admin123"; \\ senha do usuário
 $dbname = "project"; \\ nome da base de dados (schema)
