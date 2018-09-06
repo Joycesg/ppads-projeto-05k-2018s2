@@ -9,5 +9,5 @@ Segue informações para acesso ao banco de dados via MySQL:
 
 
 
-
-arn:aws:rds:sa-east-1:491990153566:db:projeto
+servername: projeto.cwwjhwliwovk.sa-east-1.rds.amazonaws.com
+port servername: 3306
