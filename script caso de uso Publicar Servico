@@ -7,5 +7,6 @@ CREATE TABLE servico (
           localidade varchar(50),
           tipo_perfil varchar(50),
           historico varchar(200),
-          competencias varchar(200)
+          competencias varchar(200),
+          id_usuario int references usuario
   );
