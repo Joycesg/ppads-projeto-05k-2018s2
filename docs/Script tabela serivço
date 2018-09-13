@@ -1,0 +1,11 @@
+CREATE TABLE servico (
+          id int primary key,
+          nome varchar(100),
+          detalhe varchar(200),
+          categoria varchar(50),
+          sub_categoria varchar(50),
+          localidade varchar(50),
+          tipo_perfil varchar(50),
+          historico varchar(200),
+          competencias varchar(200)
+  );
