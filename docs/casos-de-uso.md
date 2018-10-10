@@ -18,6 +18,19 @@ Saída: Orçamento feito.
 11. Sistema envia uma notificação ao prestador de serviço.
 12. Encerra o caso de uso. 
 
+### Fluxo Alternativo - Pesquisa não encontrada
+1. Continua a partir do tópico 3 do fluxo principal.
+2. O sistema informa ao usuário: "Pesquisa não encontrada".
+3. Sistema direciona o usuário ao tópico 2 do fluxo principal.
+4. Fluxo alternativo encerrado.
+
+### Fluxo Alternativo - Dados incorretos
+1.	Continuar a partir do tópico 9 do Fluxo Principal.
+2.	O sistema informa ao usuário: “Dados Incorretos, favor verificar”.
+3.	Sistema direciona o usuário ao tópico 7 do Fluxo Principal. 
+4.	Fluxo alternativo encerrado.
+
+
 ## CDU002 - Publicar serviço
 Pré requisitos:  
 
@@ -35,7 +48,6 @@ Saída: Serviço criado e publicado no site.
 6. Encerra o caso de uso.
 
 ### Fluxo Alternativo - Dados incorretos
-
 1.	Continuar a partir do tópico 4 do Fluxo Principal.
 2.	O sistema informa ao usuário: “Dados Incorretos, favor verificar”.
 3.	Sistema direciona o usuário ao tópico 2 do Fluxo Principal. 
@@ -77,3 +89,6 @@ Aprovado orçamento de prestação de serviços.
 4. Sistema salva a aprovação. 
 5. Sistema envia uma notificação ao prestador de serviço.
 6. Encerra o caso de uso.
+
+## Fluxo Alternativo - Orçamento não aprovado
+1.	Continuar a partir do tópico 1 do Fluxo Principal.
