@@ -25,4 +25,4 @@ Resultados esperados:
     * Endereço: Rua Consolação, 920 Higienópolis;
     * Termo de uso, serviço e detalhes adicionais: Clicar em aceitar.
 8. Usuário clica no botão "Confirmar". 
-12. Encerra o caso de teste - caixa preta.. 
+12. Encerra o caso de teste - caixa preta.
