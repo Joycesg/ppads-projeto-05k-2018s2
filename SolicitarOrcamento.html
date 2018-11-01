@@ -30,19 +30,19 @@
 <body>
 	<!--Formulário para publicar um serviço de um prestador de serviço-->
 	<h2>Solicitar orçamento - individual</h2>
-	<form>
+	<form action="envia2.php" method="post">
 		<!-- ????????-->
         <div class="orcamento">
             <div class="profissional">
                 <p>Profissional escolhido:
-                    <input type="text" value="Marceneiro - Montagem de móveis" disabled> </p> 
+                    <input name = "servico" type="text" value="Marceneiro - Montagem de móveis" disabled> </p> 
             </div> 
             <div>
                 <p>Nome do contato
-                <input type="text" placeholder="Seu nome completo" name="name" value=""></p> 
+                <input name = "nome" type="text" placeholder="Seu nome completo" name="name" value=""></p> 
                 
                 <p>Telefone
-                <input type="tel" placeholder=" ex. (11) 9 1111-1111" name="phone.number" value=""></p>
+                <input name = "telefone" type="tel" placeholder=" ex. (11) 9 1111-1111" name="phone.number" value=""></p>
                 
                 <div>
                     <p>Preferência de contato: </p>
@@ -52,16 +52,16 @@
                 </div> <br>
                 
                 <p>CEP
-                    <input type="number" placeholder="Ex: 012345-789" name="cep" value=""> </p>
+                    <input name = "cep" type="number" placeholder="Ex: 012345-789" name="cep" value=""> </p>
                 
                 <p>Endereco 
-                <input type="text" placeholder="Rua Consolação" name="endereco" value=""></p>  
+                <input name = "endereco" type="text" placeholder="Rua Consolação" name="endereco" value=""></p>  
                 
                 <p>Número
-                <input type="text" placeholder="920" name="numero" value=""> </p> 
+                <input name = "numero" type="text" placeholder="920" name="numero" value=""> </p> 
                 
                 <p>Bairro
-                <input type="text" placeholder="Higienópolis" name="bairro" value=""> </p> 
+                <input name ="bairro" type="text" placeholder="Higienópolis" name="bairro" value=""> </p> 
                 
                 <input type="checkbox" name="termo" value="termo">Eu concordo com o termo de uso.
                 <p style="color:gray">Para continuar você precisa aceitar o termo de uso.</p>
@@ -72,7 +72,6 @@
 		<input type="submit" value="Submit">
 	</form>
 
-</div>
 
 <script src="js/vendor/jquery.min.js"></script>
 <script src="js/vendor/materialize-0.97.0.min.js"></script>
