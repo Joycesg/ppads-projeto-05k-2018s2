@@ -5,8 +5,7 @@
 Resultados esperados: 
   * Que o orçamento seja salvo no banco de dados.
   * Que uma confirmação de inscrição seja exibida ao usuário.
-  * Que um push seja enviado ao prestador de serviço.
-  * Que o orçameno seja exibido para o prestador de serviço na área de "Orçamentos pendentes".
+
   
 ### Fluxo principal
 1. Usuário acessa o site pyrophoric-admiralt.000webhostapp.com/index.html.
@@ -24,5 +23,6 @@ Resultados esperados:
     * CEP: 01302-001;
     * Endereço: Rua Consolação, 920 Higienópolis;
     * Termo de uso, serviço e detalhes adicionais: Clicar em aceitar.
-8. Usuário clica no botão "Confirmar". 
-12. Encerra o caso de teste - caixa preta.
+9. Usuário clica no botão "Confirmar". 
+10. Acessar o banco de dados para validar se os registros foram inseridos com sucesso. 
+11. Encerra o caso de teste - caixa preta.
