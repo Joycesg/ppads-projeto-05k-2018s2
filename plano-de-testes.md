@@ -13,7 +13,7 @@ Resultados esperados:
 3. Usuário seleciona os filtros.
 4. Usuário escolhe o filtro "Montagem de Móveis".
 5. Usuário salva os filtros. 
-6. Usuário seleciona serviço "Merceneiro - Montagem de móveis".
+6. Usuário seleciona serviço "Marceneiro - Montagem de móveis".
 7. Usuário clica no botão "Solicitar orçamento" à direita da tela.
 8. Usuário informa os dados pessoais, como: 
     * Nome: Bruno Belarmino;
