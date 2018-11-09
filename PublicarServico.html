@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-br" Xmanifest="appcache.manifest">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Publicar Serviço</title>
+    <meta name="description" content="Publicar Serviço">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+    <!-- <link rel="manifest" href="manifest.json"> -->
+</head>
+
+    <body>
+	<!--Formulário para publicar um serviço de um prestador de serviço-->
+	<h2>Caso de Uso: Publicar serviço</h2>
+<div>
+	<form>
+		<div class="formasdepagamento">
+            <h3>Formas de pagamento</h3>
+            <p style="color:gray">Quais formas de pagamento você aceita?</p>
+                <input type="checkbox" name="formasdepagamento" value="cartaodecredito">Cartão de crédito<br>
+                <input type="checkbox" name="formasdepagamento" value="cartaodedebito">Cartão de débito<br>
+                <input type="checkbox" name="formasdepagamento" value="dinheiro">Dinheiro<br>
+                <input type="checkbox" name="formasdepagamento" value="cheque">Cheque<br>
+        </div> <br>
+            		
+        <div class="galeriadefotos">
+        <!-- action="/action_page.php" colocar ação para salvar a foto-->
+            <h3>Galeria de fotos</h3>
+        <p style="color:gray"> Faça uploads de trabalhos semelhantes já feitos.</p>
+            <input type="file" name="pic" accept="image/*">
+            <input type="submit">
+        </div>
+            <br>
+            
+            
+		<div class="perfil">
+          <h3>Descreva o seu perfil</h3>  
+        <p style="color:gray"> Sua descrição é importante para passar confiança a quem vai contratar o serviço.</p>    
+		  <label>
+            <textarea name="perfil" maxlength="5000" placeholder="Descreva aqui suas qualificações e habilidades sobre o serviço que será prestado." ></textarea>
+          </label>
+        </div><br>
+        
+        <input type="submit">
+	</form>
+
+</div>
+
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/vendor/materialize-0.97.0.min.js"></script>
+<script src="js/spa.js"></script>
+<script src="js/main.js"></script>
+<script src="js/install.js"></script>
+
+</body>
+</html>
