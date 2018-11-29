@@ -56,28 +56,28 @@ Resultados esperados:
 ### Fluxo principal
 1. Prestador de serviço acessa o link https://pyrophoric-admiralt.000webhostapp.com/EnviarOrcamento.html.
 2. Prestador de serviço informa os dados: 
- Material: Madeira preensada 30cm x 60x
- Quantidade: 2 
- Preço unitário: R$500,00
- Total: R$1000,00
+    * Material: Madeira preensada 30cm x 60x
+    * Quantidade: 2 
+    * Preço unitário: R$500,00
+    * Total: R$1000,00
+    
+    * Material: Dobradiças metal 
+    * Quantidade: 4
+    * Preço unitário: R$20,00
+    * Total: R$80,00
  
- Material: Dobradiças metal
- Quantidade: 4
- Preço unitário: R$20,00
- Total: R$80,00
+    * Material: Parafusos cabeça de fenda
+    * Quantidade: 8 
+    * Preço unitário: R$0,50
+    * Total: R$4,00
  
- Material: Parafusos cabeça de fenda
- Quantidade: 8 
- Preço unitário: R$0,50
- Total: R$4,00
+    * Custo mão de obra: R$200,00 
+    * Valor total: R$1284,00
  
- Custo mão de obra: R$200,00 
- Valor total: R$1284,00
- 
- Prazo de execução do serviço: 2 horas
- Observações: Prazo será cumprido somente se todo o material estiver diponível para instalação. 
+    * Prazo de execução do serviço: 2 horas
+    * Observações: Prazo será cumprido somente se todo o material estiver diponível para instalação. 
  
 3. Prestador de serviço clica no botão "Confirmar". 
 4. Acessar o banco de dados para validar se os registros foram inseridos com sucesso. 
-5; Encerra o caso de teste - caixa cinza.
+5. Encerra o caso de teste - caixa cinza.
 
