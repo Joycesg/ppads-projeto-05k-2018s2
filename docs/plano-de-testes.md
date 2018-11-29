@@ -81,3 +81,18 @@ Resultados esperados:
 4. Acessar o banco de dados para validar se os registros foram inseridos com sucesso. 
 5. Encerra o caso de teste - caixa cinza.
 
+
+## CDT004 - Aprovar Orçamento
+Resultados esperados: 
+  * Orçamento aprovado com sucesso.
+  
+### Fluxo principal
+1. Usuário acessa o link https://pyrophoric-admiralt.000webhostapp.com/AprovarOrçamento.html.
+2. Usuário seleciona o orçamento "Marcelaria - Montagem de Móveis".
+3. Usuário aprova o orçamento clicando no botão "Aprovar".
+4. Acessar o banco de dados para validar se os registros foram inseridos com sucesso. 
+5. Encerra o caso de teste - caixa cinza.
+
+
+
+
