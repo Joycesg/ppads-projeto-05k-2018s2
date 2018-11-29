@@ -94,5 +94,26 @@ Resultados esperados:
 5. Encerra o caso de teste - caixa cinza.
 
 
+## CDT005 - Cadastrar Usuário
+Resultados esperados: 
+  * Usuário cadastrado com sucesso.
+  
+### Fluxo principal
+1. Usuário acessa o link https://pyrophoric-admiralt.000webhostapp.com/CadastrarUsuario.html.
+2. Usuário preenche os dados:
+ Nome completo: Bruno Belarmino Sousa
+ CPF: 713.907.710-08
+ E-mail: teste@teste.com
+ Endereço: Rua Consolação
+ Número: 900
+ Bairro: Higienópolis
+ Cidade: São Paulo
+ Estado: São Paulo
+ Login: teste_teste
+ Senha: Senha@123
+3. Usuário salva os dados clicando no botão "Cadastrar".
+4. Acessar o banco de dados para validar se os registros foram inseridos com sucesso. 
+5. Encerra o caso de teste - caixa cinza.
+
 
 
