@@ -25,7 +25,7 @@ Resultados esperados:
     * Termo de uso, serviço e detalhes adicionais: Clicar em aceitar.
 9. Usuário clica no botão "Confirmar". 
 10. Acessar o banco de dados para validar se os registros foram inseridos com sucesso. 
-11. Encerra o caso de teste - caixa preta.
+11. Encerra o caso de teste - caixa cinza.
 
 ## CDT002 - Publicar Serviço
 Resultados esperados: 
@@ -44,4 +44,7 @@ Resultados esperados:
  Região: Zona Norte
  Competências: Sou especializada em tratamento com crianças vítimas de queimadura.
  Detalhes do serviço: Atendo somente pacientes que não possuem convêncio médico. 
- 
+3. Usuário clica no botão "Confirmar". 
+4. Acessar o banco de dados para validar se os registros foram inseridos com sucesso. 
+5; Encerra o caso de teste - caixa cinza.
+
