@@ -27,11 +27,12 @@ Resultados esperados:
 10. Acessar o banco de dados para validar se os registros foram inseridos com sucesso. 
 11. Encerra o caso de teste - caixa cinza.
 
+
+
 ## CDT002 - Publicar Serviço
 Resultados esperados: 
   * Que o serviço seja criado e publicado.
   * Que uma confirmação de inscrição seja exibida ao usuário.
-
   
 ### Fluxo principal
 1. Prestador de serviço acessa o link https://pyrophoric-admiralt.000webhostapp.com/PublicarServico.html.
@@ -45,6 +46,38 @@ Resultados esperados:
  Competências: Sou especializada em tratamento com crianças vítimas de queimadura.
  Detalhes do serviço: Atendo somente pacientes que não possuem convêncio médico. 
 3. Usuário clica no botão "Confirmar". 
+4. Acessar o banco de dados para validar se os registros foram inseridos com sucesso. 
+5. Encerra o caso de teste - caixa cinza.
+
+## CDT003 - Enviar Orçamento
+Resultados esperados: 
+  * Orçamento enviado com sucesso.
+  
+### Fluxo principal
+1. Prestador de serviço acessa o link https://pyrophoric-admiralt.000webhostapp.com/EnviarOrcamento.html.
+2. Prestador de serviço informa os dados: 
+ *Material: Madeira preensada 30cm x 60x
+ *Quantidade: 2 
+ *Preço unitário: R$500,00
+ *Total: R$1000,00
+ 
+ *Material: Dobradiças metal
+ *Quantidade: 4
+ *Preço unitário: R$20,00
+ *Total: R$80,00
+ 
+ *Material: Parafusos cabeça de fenda
+ *Quantidade: 8 
+ *Preço unitário: R$0,50
+ *Total: R$4,00
+ 
+ *Custo mão de obra: R$200,00 
+ *Valor total: R$1284,00
+ 
+ *Prazo de execução do serviço: 2 horas
+ *Observações: Prazo será cumprido somente se todo o material estiver diponível para instalação. 
+ 
+3. Prestador de serviço clica no botão "Confirmar". 
 4. Acessar o banco de dados para validar se os registros foram inseridos com sucesso. 
 5; Encerra o caso de teste - caixa cinza.
 
